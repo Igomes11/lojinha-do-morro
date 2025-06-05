@@ -16,7 +16,7 @@ Feedback ao Usuário: Exibe mensagens de "Carregando..." durante a busca de dado
 
 Estilização: O estilo é encapsulado por componente, evitando conflitos de classes e mantendo o CSS organizado.
 
-🚀 Tecnologias Utilizadas
+Tecnologias Utilizadas
 Next.js - Framework React para produção.
 React - Biblioteca para construir interfaces de usuário.
 CSS Modules - Para estilização local e encapsulada.
@@ -33,7 +33,7 @@ Siga os passos abaixo para executar o projeto localmente:
 
 Pelo GitBash:
 
-cd <lojinha-do-morro>
+cd lojinha-do-morro
 
 1. Instale as dependências
 
