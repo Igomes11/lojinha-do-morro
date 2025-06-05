@@ -41,7 +41,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Lojinha do Morro</title>
-        
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -56,12 +56,13 @@ export default function Home() {
       <main className={styles.main}>
         <h3 className={styles.title}>Confira os nossos produtos</h3>
         {loading && (
-          <div className={styles.loadingMessage}>Bem-vindos a Lojinha do Morro.<br/> Carregando produtos...</div>
+          <div className={styles.loadingMessage}>
+            Bem-vindos a Lojinha do Morro.
+            <br /> Carregando produtos...
+          </div>
         )}
         {error && (
-          <div className={styles.errorMessage}>
-            Erro ao buscar produtos.
-          </div>
+          <div className={styles.errorMessage}>Erro ao buscar produtos.</div>
         )}
         {!loading && !error && <ProductList products={products} />}
       </main>
