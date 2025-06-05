@@ -1,40 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+Projeto: Lojinha do Morro
 
-## Getting Started
+Este é o repositório de uma aplicação front-end para uma tela inicial de e-commerce, desenvolvida como atividade avaliativa. A aplicação consome dados de produtos da API pública Fake Store API e os exibe em uma interface limpa e responsiva.
 
-First, run the development server:
+Funcionalidades:
 
-```bash
+Listagem de Produtos: Exibe produtos obtidos de uma API externa em uma grade.
+
+Layout Responsivo: A interface se adapta a diferentes tamanhos de tela (desktop, tablets e celulares) utilizando CSS Grid e Media Queries.
+
+Busca em Tempo Real: Um campo de busca permite filtrar os produtos por nome dinamicamente.
+
+Componentização: A arquitetura do projeto é baseada em componentes reutilizáveis (Lista de Produtos, Card de Produto).
+
+Feedback ao Usuário: Exibe mensagens de "Carregando..." durante a busca de dados e mensagens de erro caso a API falhe.
+
+Estilização: O estilo é encapsulado por componente, evitando conflitos de classes e mantendo o CSS organizado.
+
+🚀 Tecnologias Utilizadas
+Next.js - Framework React para produção.
+React - Biblioteca para construir interfaces de usuário.
+CSS Modules - Para estilização local e encapsulada.
+Node.js - Ambiente de execução JavaScript.
+
+Pré-requisitos:
+Antes de começar, você vai precisar ter instalado em sua máquina:
+
+Node.js (versão 18.x ou superior)
+NPM (Gerenciador de pacotes)
+
+Rodando a Aplicação:
+Siga os passos abaixo para executar o projeto localmente:
+
+Pelo GitBash:
+
+cd <lojinha-do-morro>
+
+1. Instale as dependências
+
+Usando NPM:
+npm install
+
+2. Execute a aplicação em modo de desenvolvimento
+
+Usando NPM:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Abra no navegador
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+A aplicação estará disponível em http://localhost:3000.
