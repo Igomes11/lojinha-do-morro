@@ -33,11 +33,7 @@ Siga os passos abaixo para executar o projeto localmente:
 
 Pelo GitBash:
 
-<<<<<<< HEAD
 cd ./seudiretorio/lojinha-do-morro
-=======
-cd lojinha-do-morro
->>>>>>> 842b6baf93f46b4005ab02b3a37055462dff5b7a
 
 1. Instale as dependências
 
