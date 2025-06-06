@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import ProductList from "../components/ProductList";
 import styles from "../styles/Home.module.css";
+import Image from "next/image";
 
 export default function Home() {
   const [products, setProducts] = useState([]);
@@ -46,11 +47,25 @@ export default function Home() {
       </Head>
 
       <header className={styles.header}>
-        <img
+        <Image
           src="/logo.png"
           alt="Logo da Lojinha do Morro"
           className={styles.logo}
+          width={80}
+          height={80}
         />
+        <h1>Lojinha do Morro</h1>
+        <form className={styles.searchForm}>
+          <input
+            type="text"
+            placeholder="O que você está procurando hoje?"
+            className={styles.searchInput}
+          />
+
+          <button type="submit" className={styles.searchButton}>
+            Buscar
+          </button>
+        </form>
       </header>
 
       <main className={styles.main}>

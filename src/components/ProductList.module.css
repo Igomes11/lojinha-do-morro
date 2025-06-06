@@ -2,7 +2,6 @@
   display: grid;
   gap: 1.5rem;
   padding: 1rem;
-
   grid-template-columns: 1fr;
 }
 
