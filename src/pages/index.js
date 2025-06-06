@@ -84,7 +84,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <p>
-          &copy; Lojinha do Morro - Igor Gomes - {new Date().getFullYear()}.
+          &copy; Lojinha do Morro - Igor Gomes/José Pedro - {new Date().getFullYear()}.
           Todos os direitos reservados.
         </p>
       </footer>
